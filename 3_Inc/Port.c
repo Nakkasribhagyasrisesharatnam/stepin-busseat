@@ -1,5 +1,5 @@
-#ifndef __ACTIVITY_1_H__
-#define __ACTIVITY_1_H__
+#ifndef __PORT_H__
+#define __PORT_1_H__
 
 
 
@@ -43,9 +43,9 @@ void TurnLED_ON();
 void TurnLED_OFF();
 
 /**
- * @brief Activity 1 to Turn ON LED if switches for Button sensor and Heator sensor are pressed
+ * @brief port to Turn ON LED if switches for Button sensor and Heator sensor are pressed
  *
  */
-int activity1_LED(void);
+int port_LED(void);
 
-#endif /* __ACTIVITY_1_H__ */
+#endif /* __PORT_H__ */
